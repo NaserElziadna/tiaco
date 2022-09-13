@@ -1,0 +1,52 @@
+name: tictactoe
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cloud_firestore: ^3.4.3
+  google_sign_in: ^5.3.3
+  firebase_auth: ^3.6.2
+  firebase_core: ^1.20.0
+  share_plus: ^4.0.10+1
+  contactus: ^1.2.0
+  # esys_flutter_share: ^1.0.2
+  # play_games: ^0.5.5
+  # games_services: ^2.0.8
+  cupertino_icons: ^1.0.5
+  google_fonts: ^3.0.1
+  flutter_screenutil: ^5.5.3+2
+  font_awesome_flutter: ^10.1.0
+  sqflite: ^2.0.2+1
+  animations: ^2.0.3
+  shared_preferences: ^2.0.15
+  audioplayers: ^1.0.1
+  provider: ^6.0.3
+  path_provider: any
+  flutter_launcher_icons: ^0.10.0 #run this command to configure launchericon :: flutter pub run flutter_launcher_icons:main
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  # flutter_launcher_icons: any
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
