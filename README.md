@@ -47,48 +47,30 @@
   </tr>
 </table>  
 
-=========  
+### Challenge
 
-Challenge  
-
-=========  
 Can you beat the “Expert” Artificial Intelligence-based level? 😮🙄  
   
-==========  
-
-Information  
-
-==========  
-🥇 Tiaco : Online Multiplayer is a classic board game played between friends and family 📋, and one of the best puzzle games in the market also known as Noughts and Crosses or sometimes X and O or even (Zero – Kanta in Punjabi) 🎈✖.  
+### Information  
   
-===============  
-
-Online Multiplayer  
-
-===============  
+🥇 Tiaco : Online Multiplayer is a classic board game played between friends and family 📋, and one of the best puzzle games in the market also known as Noughts and Crosses or sometimes X and O or even (Zero – Kanta in Punjabi) 🎈✖.  
+    
+### Online Multiplayer  
+  
 Tiaco is a Tic Tac Toe online multiplayer game that lets you play with your friend by simply creating a room and it is very easy as well. Once the room is created, then you can play anywhere anytime without losing any data. This is why Tic Tac Toe is one of the best Online Games in the market. 🎈  
   
-============  
-
-Offline Game  
-
-============  
+### Offline Game  
+  
 This game can be played offline as well. You have the option to choose between three difficulty levels, and start having fun. 🥳  
   
-===========  
+### Game Modes
 
-Game Modes
-  
-===========  
 ✔ Single Player (Player V/S Computer)  
 ✔ Multiplayer (Player V/S Friend)  
 ✔ Online Multiplayer (Player V/S Friend Online)  
   
-=======  
-
-Features  
-
-=======  
+### Features  
+ 
 ⭐ Three difficulty levels – Easy, Medium and Expert 🌟  
 ⭐ Smart Artificial Intelligence 🌟  
 ⭐ Great Graphics and Exciting Sound Effects 🌟  
@@ -100,11 +82,8 @@ Features
 ⭐ Leader boards and Achievements 🌟  
 ⭐ Offline and Online Compatibilities 🌟  
   
-======================  
-
-Friends and Family Friendly  
-
-=======================  
+### Friends and Family Friendly  
+  
 Tiaco is a friend and family game that can be enjoyed by you and your family and friends. You'll be playing this game for hours and its fun for the whole family.  
   
 Tiaco is a perfect time pass game of puzzle board game. You played Tic Tac Toe in your childhood, now play on your phone and tablet.  
@@ -113,12 +92,8 @@ The Tic Tac Toe is a great way to pass your free time whether you're waiting in 
   
 The Artificial Intelligence (AI) 👨‍💻 for single-player mode includes three difficulty levels, so you can play against a computer player that matches your skill level. The algorithm used in this game is very well trained and has a new set of moves every time you play so that your device won’t keep making the same moves over and over again 🎗. This game is best suited for all ages people – Easy (Difficultly) – Medium (Difficultly) – Expert (Difficultly) is for smart peoples.  
   
-=============== 
+### Best Puzzle Game  
 
-Best Puzzle Game  
-
-===============  
-  
 This brain puzzle teaser suites all ages. Tiaco : Online Multiplayer also known as X and O will develop your logic skills in this great time killer if you’re bored.  
   
 ✨ Get Tic Tac Toe Free now and let the fun begin! ✨  
@@ -126,6 +101,13 @@ This brain puzzle teaser suites all ages. Tiaco : Online Multiplayer also known 
 Start to train your brain in this challenge! 🏆
 
 # Firebase - Cloud Firestore Data Structure (NoSQL) 
+* create firebase account 
+* create a project for the app
+* install the the google-services.json file in android > app folder
+* create cloud firestore database 
+  > NOTE :: the data structer are specified at the end
+* create authentication template with google sign in
+
 ```yaml
 -> (ref) Users
 -> (document) 2UKVRiD23kaOnrwtVMHnE3Ru3Gr2
@@ -140,7 +122,7 @@ Start to train your brain in this challenge! 🏆
 -> (document) 3ccjW
 -> (collection)
 {
-  "secondID": "",
+  "secondID": "2UKVRiD23kaOnrwtVMHnE3Ru3Gr2",
   "status": 100,
   "id": "3ccjWc1fg6XjeHK3FhdpaV5vX9E2"
 }
@@ -188,3 +170,4 @@ Start to train your brain in this challenge! 🏆
   }
 }
 ```
+
