@@ -124,3 +124,67 @@ This brain puzzle teaser suites all ages. Tiaco : Online Multiplayer also known 
 ✨ Get Tic Tac Toe Free now and let the fun begin! ✨  
   
 Start to train your brain in this challenge! 🏆
+
+# Firebase - Cloud Firestore Data Structure (NoSQL) 
+```yaml
+-> (ref) Users
+-> (document) 2UKVRiD23kaOnrwtVMHnE3Ru3Gr2
+-> (collection)
+{
+  "uid": "L5bIfVVcJcRF4P57yCSoxzWVQIv2",
+  "photoUrl": "https://lh3.googleusercontent.com/a/AItbvmkhOZ9QQROObfhOHu4IKF8e2NhCL17mKxm9Z-tU=s96-c",
+  "name": "Hassan Elziadna"
+}
+=======================================================================================================
+-> (ref) Pending Rooms
+-> (document) 3ccjW
+-> (collection)
+{
+  "secondID": "",
+  "status": 100,
+  "id": "3ccjWc1fg6XjeHK3FhdpaV5vX9E2"
+}
+=======================================================================================================
+-> (ref) Rooms
+-> (document) 2UKVR-3ccjW
+-> (collection)
+{
+  "active": 0,
+  "roomID": "2UKVR-3ccjW",
+  "playerOne": {
+    "uid": "2UKVRiD23kaOnrwtVMHnE3Ru3Gr2",
+    "photoUrl": "https://lh3.googleusercontent.com/a-/AFdZucr_MvpJU2jLv-s7eHyvrOSLhNfmixIt_Qt-7CEo=s96-c",
+    "name": "تيوب نت"
+  },
+  "winningState": -1,
+  "emojiPlayerTwo": "🧨",
+  "gameBoard": {
+    "0,1": -1,
+    "1,1": 0,
+    "1,0": -1,
+    "2,0": 0,
+    "1,2": 0,
+    "2,2": 1,
+    "2,1": -1,
+    "0,2": 1,
+    "0,0": 1
+  },
+  "winner": "",
+  "move": 6,
+  "emojiPlayerOne": "😫",
+  "status": 404,
+  "stats": {
+    "playerOne": 1,
+    "playerTwo": 0
+  },
+  "messages": [
+    "Hi , Good Luck1",
+    "Thx , You Too0"
+  ],
+  "playerTwo": {
+    "uid": "3ccjWc1fg6XjeHK3FhdpaV5vX9E2",
+    "photoUrl": "https://lh3.googleusercontent.com/a-/AFdZucrZkV8TIv8zAX7rWXdZ4j-FmQA6_nAOG6zWJC_LFF0=s96-c",
+    "name": "Naser Hassan"
+  }
+}
+```
