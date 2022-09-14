@@ -1,7 +1,7 @@
 <a href="https://www.buymeacoffee.com/NaserElziadna" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=NaserElziadna.tiaco)
-# <img src="https://github.com/NaserElziadna/tiaco/blob/main/assets/logo.png" alt="drawing" style="width: 10%;max-width: 30%;border-radius: 17px;display: block;"/>
+# <img src="https://github.com/NaserElziadna/tiaco/blob/main/assets/logo.png" alt="drawing" style="width: 10%;max-width: 50%;border-radius: 17px;display: block;"/>
  🏆🥇 Tiaco : Online Multiplayer is one of the best puzzle games in the market. 🥇🏆  
 
 <a href="https://play.google.com/store/apps/details?id=com.nmmsoft.tictactoe">
@@ -15,7 +15,7 @@
 
 
 
-# app ScreenShot
+# 📸 ScreenShots
 <table style="width:75%;height:75%;">
   <tr>
     <td>
@@ -171,3 +171,22 @@ Start to train your brain in this challenge! 🏆
 }
 ```
 
+# 🔌 Plugins
+
+| Name                                                    | Usage                                               |
+| ------------------------------------------------------- | --------------------------------------------------- |
+| [**Provider**](https://pub.dev/packages/provider)       | State Management                                    |
+| [**cloud_firestore**](https://pub.dev/packages/cloud_firestore)      | A Flutter plugin to use the Cloud Firestore API.       |
+| [**google_sign_in**](https://pub.dev/packages/google_sign_in)       | A Flutter plugin for Google Sign In.                                 |
+| [**firebase_auth**](https://pub.dev/packages/firebase_auth)                 | A Flutter plugin to use the Firebase Authentication API.                     |
+| [**firebase_core**](https://pub.dev/packages/firebase_core) | enables connecting to Firebase apps |
+| [**share_plus**](https://pub.dev/packages/share_plus) | A Flutter plugin to share content from your Flutter app via the platform's share dialog |
+| [**google_fonts**](https://pub.dev/packages/google_fonts) | A Flutter package to use fonts from fonts.google.com. |
+| [**flutter_screenutil**](https://pub.dev/packages/flutter_screenutil) | A flutter plugin for adapting screen and font size |
+| [**font_awesome_flutter**](https://pub.dev/packages/font_awesome_flutter) | The free Font Awesome Icon pack available as set of Flutter Icons |
+| [**sqflite**](https://pub.dev/packages/sqflite) | help to store databse for offline use |
+| [**shared_preferences**](https://pub.dev/packages/shared_preferences) | help to store databse for offline use || golbal values |
+| [**audioplayers**](https://pub.dev/packages/audioplayers) | A Flutter plugin to play multiple simultaneously audio files |
+| [**path_provider**](https://pub.dev/packages/path_provider) | A Flutter plugin for finding commonly used locations on the filesystem |
+| [**flutter_launcher_icons**](https://pub.dev/packages/flutter_launcher_icons) | A command-line tool which simplifies the task of updating your Flutter app's launcher icon |
+| [**animations**](https://pub.dev/packages/animations) | This package contains pre-canned animations for commonly-desired effects |
